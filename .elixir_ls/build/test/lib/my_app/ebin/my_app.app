@@ -1,5 +1,5 @@
 {application,my_app,
-             [{applications,[kernel,stdlib,elixir,logger,runtime_tools,confex,
+             [{applications,[kernel,stdlib,elixir,logger,runtime_tools,
                              gettext,jason,bcrypt_elixir,phoenix_pubsub,
                              postgrex,ecto_sql,plug_cowboy,phoenix,
                              phoenix_ecto]},
