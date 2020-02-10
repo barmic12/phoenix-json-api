@@ -1,7 +1,12 @@
 # MyApp
 
 To start your Phoenix server:
-
+  * Create `.env` file with environment variables:
+  ```
+  export POSTGRES_USERNAME=your_postgres_username
+  export POSTGRES_PASSWORD=your_postgres_password
+  ```
+  * Load variables with `source .env`
   * Install dependencies with `mix deps.get`
   * Create and migrate your database with `mix ecto.setup`
   * Start Phoenix endpoint with `mix phx.server`
