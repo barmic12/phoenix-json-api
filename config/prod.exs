@@ -11,7 +11,7 @@ use Mix.Config
 # before starting your production server.
 config :my_app, MyAppWeb.Endpoint,
   http: [port: {:system, "PORT"}],
-  url: [scheme: "https", host: "stormy-mountain-91955.herokuapp.com", port: 443],
+  url: [scheme: "https", host: "still-garden-36190.herokuapp.com", port: 443],
   force_ssl: [rewrite_on: [:x_forwarded_proto]]
   #cache_static_manifest: "priv/static/cache_manifest.json"
 
